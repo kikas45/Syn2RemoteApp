@@ -143,6 +143,16 @@
 
     <SwitchPreference
         android:defaultValue="false"
+        android:icon="@drawable/ic_toolbar_top"
+        android:key="HideToolbar"
+        android:title="Hide Toolbar"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"
+        app:iconSpaceReserved="true" />
+
+
+    <SwitchPreference
+        android:defaultValue="false"
         android:icon="@drawable/ic_qr_code_scanner_24"
         android:key="hideQRCode"
         android:title="Hide QR Code"

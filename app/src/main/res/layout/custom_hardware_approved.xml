@@ -74,7 +74,6 @@
             android:layout_marginEnd="24dp"
             android:gravity="center"
             android:text="Your hardware is not compatible with this application"
-            style="@style/textColorStyleSyncMangerPlus"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +87,8 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="24dp"
             android:text="TextView"
-            android:textSize="13sp"
+            android:textSize="15sp"
+            style="@style/textColorStyleSyncMangerPlus"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textTitles" />
